@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    color: #935772;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 275px; 
+    background: url(images/downtown.jpg);
+    background-size: cover; 
+}
+
+#title {
+    margin: 30px 70px 125px 70px; 
+    background: white;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+#description {
+    text-shadow: 0 0 1px white;
+    font-size: 15px;
+    margin: 10px 15px 10px 15px;  
+    opacity: 80%;
+    background: white;
+    border-radius: 8px;
+}
+
+#activities-section {
+    padding: 40px 0px 40px 0px; 
+    background: #DF8677;
+}
+
+
+h1 {
+    margin:0;
+}
+
+#title {
+    
+}
+
+h3 {
+margin:0; 
+}
+
+#guide-section {
+    background: white; 
+    padding: 40px 0 40px 0;
+}
+
+#guide-card {
+    border-radius: 8px; 
+    border-bottom: 5px solid #43628C;
+    border-right: 5px solid #43628C;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 350px; 
+    background: #6181A6;
+    padding: 0 10px 0 10px; 
+}
+
+#headshot {
+    width: 130px;
+    height: 100px;
+    margin: 0 15px 0 15px
+}
+
+#sd-pics {
+    border-radius: 8px; 
+}
+
+#activities-list {
+    display: flex; 
+}
+
+#activity {
+    padding: 0 10px 0 10px; 
+}
+
+p {
+ font-size: 12px;
+}
+
+h4 {
+    font-size: 14px;
+    
+}
+
+.italic {
+    font-style: italic; 
+}
